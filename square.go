@@ -20,9 +20,11 @@ func (squareItem Square) End() Point {
 }
 
 func (squareItem Square) Area() uint {
+	
 	return squareItem.a * squareItem.a
 }
 
 func (squareItem Square) Perimeter() uint {
+
 	return  squareItem.a * 4
 }
