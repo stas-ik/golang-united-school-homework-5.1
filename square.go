@@ -1,9 +1,5 @@
 package square
 
-import (
-	"math"
-)
-
 type Point struct {
 	x, y int
 }
@@ -24,7 +20,7 @@ func (squareItem Square) End() Point {
 }
 
 func (squareItem Square) Area() uint {
-	return math.Pow(squareItem.a, 2)
+	return squareItem.a * squareItem.a
 }
 
 func (squareItem Square) Perimeter() uint {
