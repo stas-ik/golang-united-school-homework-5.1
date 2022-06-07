@@ -1,3 +1,3 @@
-module homework
+module square
 
 go 1.17
